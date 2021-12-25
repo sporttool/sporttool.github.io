@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.logo{
+    background-color: rgba(17,17,17,1);
+}
+legend{
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.form-group label{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 19px;
+}
+.loinhan{
+    border-bottom: 4px solid palevioletred;
+}
