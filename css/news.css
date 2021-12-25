@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+/* #header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+} */
+/* #content{
+    margin-top: 220px;
+} */
+.img{
+    height: 200px;
+    width: 300px;
+}
+.texthot{
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: bold;
+}
+.texthot:hover{
+    color: rgb(199, 184, 184);
+}
+.text{
+    font-size: 18px;
+    font-weight: 550;
+}
+.news-item td {
+    padding: 15px;
+}
+/* .img-heading{
+    width: 702px;
+    height: 340px;
+    padding-top: 4px;
+} */
+.img-news{
+    width: 140px;
+    height: 100px;
+}
+#demo3 .news-item td {
+    padding: 3px ;
+}
+#demo3 .news-item{
+    padding: 15px 0;
+}
+.logo{
+    background-color: rgba(17, 17, 17, 1);
+}
+.glyphicon {   
+    margin-right:4px !important; 
+}
+
+.pagination .glyphicon {    
+    margin-right:0px !important; 
+}
+.pagination a { 
+    color:#555;
+}
+.panel ul { 
+    padding:0px;    
+    margin:0px; 
+    list-style:none;
+}
+.news-item {    
+    padding:15px;    
+    margin:0px; 
+    border-bottom:1px dotted #555;
+}
+.modal-title{
+    color: crimson;
+    font-weight: bold;
+    text-align: left;
+    font-family:'Times New Roman', Times, serif;
+}
+.tacgia{
+    padding-top: 20px;
+    font-weight: bold;
+    float: right;
+}
+/* Jquery */
+.scrollup {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #46CFB0;
+    padding: 10px;
+    z-index: 100;
+    display: none;
+    border-radius: 20%;
+}
+.scrollup img{
+    padding-bottom: 15px;
+}
