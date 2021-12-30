@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./js/card.js"></script>
 </head>
 <body>
     <div class="container-fluid">
@@ -97,7 +98,7 @@
                         <li>
                             <a  class="navbar-brand" href="#" style="padding: 10px;"> 
                                 <i class="nav-item fa fa-shopping-cart" style="font-size:30px"></i>
-                                <sup><sup><sup style="font-size: 15px;">0</sup></sup></sup>
+                                <sup><sup><sup style="font-size: 15px;" id="count">0</sup></sup></sup>
                             </a>
                         </li>
                     </ul>
@@ -621,5 +622,8 @@ console.log(error);
 }
 </script>
 <!-- End JQuery -->
+<script>
+    showCounter();
+</script>
 </body>
 </html>

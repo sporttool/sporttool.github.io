@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./js/card.js"></script>
     
     <script>
         function myStar1(){
@@ -31,16 +32,6 @@
             var x = "(5 sao)";
             document.getElementById("many").innerHTML = x;
         }
-        // Them vao gio hang
-        function clickCounter() {
-        if (typeof(Storage) !== "undefined") {
-            if (localStorage.clickcount) {
-            localStorage.clickcount = Number(document.getElementById("count").innerHTML)+1;
-            } else {
-            localStorage.clickcount = 1;
-            }
-            document.getElementById("count").innerHTML = localStorage.clickcount;
-        }}
     </script>
 </head>
 <body>
@@ -393,5 +384,8 @@ try {
 }
 </script>
 <!-- End JQuery -->
+<script>
+    showCounter();
+</script>
 </body>
 </html>
